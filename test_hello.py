@@ -1,4 +1,8 @@
-from hello import hello
+from hello import hello, greet
 
 def test_hello():
     assert hello() == "Hello, World!"
+
+def test_greet():
+    assert greet("Alice") == "Hello, Alice!"
+    assert greet("World") == "Hello, World!"
