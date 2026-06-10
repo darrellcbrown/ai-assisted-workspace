@@ -1,6 +1,7 @@
 🤖 **Kiro AI** completed this issue.
 
 **Changes made:**
-- Added `hello.py` with a Python hello world script (`print("Hello, Beautiful World!")`)
+- Added `countdown(n)` function to `hello.py` that returns a list counting down from n to 1
+- Added `test_countdown` tests in `test_hello.py` covering standard, edge (n=1), and zero cases
 
-**Commit:** 8d7515b
+**Commit:** 41a9b81
